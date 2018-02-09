@@ -29,5 +29,5 @@ class WallStopTest(unittest.TestCase):
 
 if __name__ == '__main__':
     time.sleep(3)
-    rospy.init_node('trabis_test_wall_stop')
-    rostest.rosrun('pimose_runcorridor', 'trabis_test_wall_stop', WallStopTest)
+    rospy.init_node('travis_test_wall_stop')
+    rostest.rosrun('pimose_runcorridor', 'travis_test_wall_stop', WallStopTest)
